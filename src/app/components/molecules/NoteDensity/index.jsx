@@ -45,6 +45,14 @@ export default ({ length, noteCounts = {} }) => {
         />
       </div>
       <div className="NoteDensity__rating">{rating}</div>
+      <div class="Gauge">
+        <div class="Gauge__a" />
+        <div class="Gauge__b" />
+        <div class="Gauge__c" />
+        <div class="Gauge__data">
+          <h1 id="Gauge__data-percent">12%</h1>
+        </div>
+      </div>
     </div>
   );
 };

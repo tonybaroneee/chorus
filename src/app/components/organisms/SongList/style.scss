@@ -1,9 +1,9 @@
+@import 'variables';
+
 .SongList {
-  .Song:nth-child(2n) {
-    background: #fff1;
-  }
-  .Song:nth-child(2n+1) {
-    background: #fff2;
+  .Song {
+    background: $color--bg-secondary;
+    border-top: 1px solid $color--bg;
   }
   &__title {
     font-size: 1.5em;
